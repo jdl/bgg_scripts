@@ -1,4 +1,10 @@
 #!ruby
+# Counts users in a BGG thread.
+# 
+# pre-reqs
+# - ruby 1.9.2
+# - nokogiri gem
+#
 require "nokogiri"
 require "net/http"
 
