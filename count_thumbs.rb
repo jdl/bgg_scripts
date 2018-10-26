@@ -56,7 +56,7 @@ loop do
     end
   end
 
-  if last_page?(doc) || page > 2
+  if last_page?(doc) 
     break
   else
     page += 1
